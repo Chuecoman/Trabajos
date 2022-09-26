@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02 - Formularios en HTML</title>
+    </head>
+    <body>
+        <h3>Formulario de Ejercicio 2</h3>
+        <form action="/">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre">
+            </div>
+            <br>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad">
+            </div>
+            <br>
+            <div>
+                <label for="frase-favorita">Frase favorita</label>
+                <br>
+                <textarea name="frase-favorita" id="frase-favorita" cols="30" rows="5">No por mucho madrugar, se ven vacas con albornoz</textarea>
+            </div>
+            <br>
+            <div>
+                <button type="reset">Reset</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </body>
+</html>
